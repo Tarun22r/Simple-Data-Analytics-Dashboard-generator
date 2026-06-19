@@ -3,6 +3,7 @@ Simple Data Analytics Dashboard (Streamlit)
 An interactive data analytics web application built using Streamlit, Pandas, Plotly, and Python that allows users to upload datasets, automatically clean data, generate insights, and visualize patterns with smart, dynamic charts.
 
 Live Features
+
 Data Upload
 
 Supports CSV and Excel (.xlsx) files
