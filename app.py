@@ -15,6 +15,7 @@ uploaded_file = st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"
 def load_dataset(file):
     if file.name.endswith(".csv"):
         return pd.read_csv(file)
+        
     return pd.read_excel(file, engine="openpyxl")
 
 
